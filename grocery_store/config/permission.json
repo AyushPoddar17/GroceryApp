@@ -1,0 +1,21 @@
+{
+    "roles": [
+        {
+            "name": "admin",
+            "permissions": [
+                "insert_grocery",
+                "find_grocery",
+                "findAll_grocery",
+                "delete_grocery",
+                "update_grocery"
+            ]
+        },
+        {
+            "name": "user",
+            "permissions": [
+                "placeOrder",
+                "viewGroceries"
+            ]
+        }
+    ]
+}

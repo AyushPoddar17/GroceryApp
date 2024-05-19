@@ -1,0 +1,10 @@
+services:
+  web:
+    build: grocery_store/.
+    ports:
+      - "3000:3000"
+  db:
+    build: grocery_store_backend/
+    ports:
+      - "3307:3306"
+
